@@ -32,11 +32,11 @@ This project is a Playwright-based automation suite designed to test core authen
 1. Clone the repository.
 2. Run `npm install` to install dependencies.
 3. Copy `.env.example` to `.env` and fill in your credentials. (tests will fail without valid Hudl credentials)
-4. Run the test suite with:
-
-```bash
-npx playwright test
-```
+4. Run the test suite:
+   - Default mode:
+     ```bash
+     npx playwright test
+     ```
 5. Additional commands:
 
    - Run tests in headed mode (for visual debugging):
@@ -57,7 +57,7 @@ npx playwright test
    - Open a saved trace file (if enabled in test config):
      ```bash
      npx playwright show-trace trace.zip
-       ```
+     ```
 
 ## 📌 Notes
 
